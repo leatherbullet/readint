@@ -6,6 +6,11 @@ namespace readint
     {
         static void Main(string[] args)
         {
+            ReturnNumber();
+        }
+        
+        static void ReturnNumber ()
+        {
             int number;
             string userInput;
             bool isSuccess = true;
